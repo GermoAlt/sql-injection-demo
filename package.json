@@ -11,9 +11,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sql.js": "^1.6.2"
-  },
-  "devDependencies": {
+    "sql.js": "^1.6.2",
     "@craco/craco": "^5.9.0",
     "typescript": "^4.5.5"
   },

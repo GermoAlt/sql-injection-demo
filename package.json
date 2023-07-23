@@ -7,7 +7,8 @@
     "starter"
   ],
   "engines": {
-    "node": "20.x"
+    "node": "20.x",
+    "npm": "9.8.1"
   },
   "main": "src/index.js",
   "license": "MIT",

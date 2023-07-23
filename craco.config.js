@@ -9,5 +9,8 @@ module.exports = {
                 }]
             }
         }
+    },
+    eslint: {
+        enable: null
     }
 };

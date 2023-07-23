@@ -1,0 +1,11 @@
+.login-container .p-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-container .p-card-content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}

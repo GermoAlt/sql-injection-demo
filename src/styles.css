@@ -1,36 +1,58 @@
-.App {
-  font-family: sans-serif;
-  font-size: 1.5em;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex: 1
 }
 
-textarea {
-  font-size: 1.1em;
-  width: 70%;
-  display: block;
-  margin: auto;
+html {
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
-table {
-  border: 1px solid #1c6ea4;
-  background-color: #eeeeee;
-  width: 40%;
-  margin: 1.5em auto;
-  text-align: left;
-  border-collapse: collapse;
-  text-align: right;
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
 }
 
-thead {
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid #999;
+#root {
+  display: flex;
+  flex:1;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  flex-direction: column;
 }
 
-th,
-td {
-  border: 1px solid #aaa;
+main {
+  display: flex;
+  align-items: center;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #353535;
 }
 
-.error {
-  color: #922;
+header, footer {
+  background-color: #1c6ea4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe  {
+  display: none;
 }
